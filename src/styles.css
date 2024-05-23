@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background-color: var(--background-body);
+  font-family: "Lustria", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+:root {
+  --background-header: #2f5f4e;
+  --font-white: #ffffff;
+  --buttons-header: #87c6af;
+  --background-body: #42856d;
+  --font-family-title: "Kadwa", serif;
+}
