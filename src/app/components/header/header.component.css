@@ -1,0 +1,40 @@
+header,
+.header-name {
+  display: flex;
+}
+
+header {
+  background-color: var(--background-header);
+  padding: 0.9vw;
+  height: 2vw;
+  justify-content: space-between;
+}
+
+.header-name {
+  align-items: center;
+  gap: 1vw;
+}
+.header-buttons {
+    display: flex;
+    gap: 1vw;
+}
+.header-buttons button {
+  width: 6vw;
+  border-radius: 1vw;
+  border: none;
+  background-color: var(--buttons-header);
+  font-size: 1vw;
+  padding: 0.5vw;
+  cursor: pointer;
+}
+
+header img {
+  width: 3vw;
+}
+
+header h1 {
+  color: var(--font-white);
+  margin: 0;
+  font-size: 2.5vw;
+  font-family: var(--font-family-title)
+}
