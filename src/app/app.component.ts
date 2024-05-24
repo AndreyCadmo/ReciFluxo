@@ -10,6 +10,7 @@ import { HeaderComponent } from "./components/header/header.component";
     <app-header></app-header>
     <main>
       <router-outlet />
+      <button onclick="window.location.href=''" class="topo">^</button>
     </main>
   `,
   styles: [],
