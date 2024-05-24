@@ -42,18 +42,21 @@
 }
 
 .servicos,
-.visao {
+.visao,
+.description-container {
   display: flex;
   gap: 2vw;
 }
 
 .card {
-  flex: 1;
+  flex: 3;
   text-align: center;
 }
 
 .card,
-.card-two {
+.card-two,
+.card-three,
+.card-four {
   background-color: var(--background-card);
   padding: 1vw;
   border-radius: 1vw;
@@ -66,8 +69,8 @@
   font-size: 1.2vw;
   margin: 0.5vw;
 }
-.card-two {
-  height: 13vw;
+.card-container-two {
+  flex: 2.1;
 }
 
 .card-container {
@@ -75,6 +78,29 @@
   text-align: center;
 }
 
-.card-container-two {
-  flex: 2.1;
+.card-two {
+  height: 13vw;
+}
+
+.card-three {
+  height: 10vw;
+  text-align: center;
+}
+
+.card-four {
+  display: flex;
+  flex-direction: column;
+  height: 27.8vw;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.description-container {
+  margin-top: 3vw;
+  display: flex;
+  height: 42vw;
+}
+
+.cards-description {
+    flex: 1;
 }
