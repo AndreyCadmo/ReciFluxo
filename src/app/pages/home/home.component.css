@@ -45,7 +45,6 @@
 .visao {
   display: flex;
   gap: 2vw;
-  
 }
 
 .servicos {
@@ -60,7 +59,6 @@
 
 .card {
   flex: 3;
-
 }
 
 .card,
@@ -116,14 +114,16 @@
   height: 42vw;
 }
 
-
 .cards-description,
 .contacts-content {
-    flex: 1;
+  flex: 1;
 }
 
 .contato-content {
-  height: 27.5vw;
+  display: flex;
+  flex-direction: column;
+  height: 29.5vw;
+  justify-content: space-around;
 }
 
 .contato-content iframe {
@@ -136,16 +136,6 @@
   margin-top: 3vw;
 }
 
-.form-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1vw;
-  max-width: 45vw;
-}
-.form-content p {
-  margin: 0;
-}
-
 .redes-sociais {
   display: flex;
   gap: 1vw;
@@ -156,45 +146,9 @@
   cursor: pointer;
 }
 
-.one-form {
+.form-content {
   display: flex;
-  gap: 2vw;
-  justify-content: space-between;
-}
-
-.form-content input {
-  margin: 0.5vw 0 1vw 0;
-  flex: 1;
-  border-radius: 1vw;
-  border: 0 none;
-  max-height: 1vw;
-  outline: 0;
-  font-size: 1vw;
-}
-
-.form-contents {
-  flex: 1;
-  display: flex;
-  text-align: center;
   flex-direction: column;
-}
-
-.buttons-form {
-  display: flex;
-  padding: 1vw 0 0 0;
   gap: 1vw;
-  justify-content: end;
-}
-
-.buttons-form button {
-  width: 8vw;
-  height: 1.5vw;
-  border-radius: 1vw;
-  border: none;
-  font-size: 1vw;
-  cursor: pointer;
-}
-
-.input-small {
-  max-width: 19vw;
+  max-width: 45vw;
 }
