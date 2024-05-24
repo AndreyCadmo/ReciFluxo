@@ -111,9 +111,11 @@
 
 .description-container {
   margin-top: 3vw;
+  padding-top: 3vw;
   display: flex;
   height: 42vw;
 }
+
 
 .cards-description,
 .contacts-content {
@@ -131,6 +133,7 @@
 
 .contacts-container {
   height: 45vw;
+  margin-top: 3vw;
 }
 
 .form-content {
