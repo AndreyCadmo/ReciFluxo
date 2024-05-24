@@ -1,0 +1,56 @@
+
+.one-form {
+  display: flex;
+  gap: 2vw;
+  justify-content: space-between;
+}
+
+.formulario input {
+  margin: 0.5vw 0 1vw 0;
+  flex: 1;
+  border-radius: 1vw;
+  border: 0 none;
+  max-height: 1vw;
+  outline: 0;
+  font-size: 1vw;
+}
+
+.form-contents {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.buttons-form {
+  display: flex;
+  padding: 1vw 0 0 0;
+  gap: 1vw;
+  justify-content: end;
+}
+
+.buttons-form button {
+  width: 8vw;
+  height: 1.5vw;
+  border-radius: 1vw;
+  border: none;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.input-small {
+  max-width: 19vw;
+}
+
+.card {
+  background-color: var(--background-card);
+  padding: 1vw;
+  border-radius: 1vw;
+  box-shadow: var(--box-shadow);
+}
+
+.card h1,
+.card p {
+  font-size: 1.2vw;
+  margin: 0.5vw 0;
+}
