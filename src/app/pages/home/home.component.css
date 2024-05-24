@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    gap: 1vw;
+}
+
+.world img {
+    width: 40vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw;
+    border-radius: 1vw;
+    justify-content: space-between;
+    background-color: var(--background-card);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
