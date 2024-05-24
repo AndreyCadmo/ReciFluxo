@@ -42,15 +42,25 @@
 }
 
 .servicos,
-.visao,
-.description-container {
+.visao {
+  display: flex;
+  gap: 2vw;
+  
+}
+
+.servicos {
+  text-align: center;
+}
+
+.description-container,
+.contacts-container {
   display: flex;
   gap: 2vw;
 }
 
 .card {
   flex: 3;
-  text-align: center;
+
 }
 
 .card,
@@ -65,9 +75,11 @@
 
 .card h1,
 .card p,
-.card-two p {
+.card-two p,
+.card-three p,
+.card-four p {
   font-size: 1.2vw;
-  margin: 0.5vw;
+  margin: 0.5vw 0;
 }
 .card-container-two {
   flex: 2.1;
@@ -83,6 +95,8 @@
 }
 
 .card-three {
+  display: flex;
+  align-items: center;
   height: 10vw;
   text-align: center;
 }
@@ -101,6 +115,83 @@
   height: 42vw;
 }
 
-.cards-description {
+.cards-description,
+.contacts-content {
     flex: 1;
+}
+
+.contato-content {
+  height: 27.5vw;
+}
+
+.contato-content iframe {
+  width: 100%;
+  height: 15vw;
+}
+
+.contacts-container {
+  height: 45vw;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  max-width: 45vw;
+}
+.form-content p {
+  margin: 0;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 1vw;
+}
+
+.redes-sociais img {
+  width: 3vw;
+  cursor: pointer;
+}
+
+.one-form {
+  display: flex;
+  gap: 2vw;
+  justify-content: space-between;
+}
+
+.form-content input {
+  margin: 0.5vw 0 1vw 0;
+  flex: 1;
+  border-radius: 1vw;
+  border: 0 none;
+  max-height: 1vw;
+  outline: 0;
+  font-size: 1vw;
+}
+
+.form-contents {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.buttons-form {
+  display: flex;
+  padding: 1vw 0 0 0;
+  gap: 1vw;
+  justify-content: end;
+}
+
+.buttons-form button {
+  width: 8vw;
+  height: 1.5vw;
+  border-radius: 1vw;
+  border: none;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.input-small {
+  max-width: 19vw;
 }
