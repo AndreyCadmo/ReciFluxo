@@ -12,4 +12,9 @@ body {
   --buttons-header: #87c6af;
   --background-body: #42856d;
   --font-family-title: "Kadwa", serif;
+  --background-card: #87C6AF;
+}
+
+main {
+  margin: 1vw 2vw;
 }
