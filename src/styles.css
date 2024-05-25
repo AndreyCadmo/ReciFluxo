@@ -1,13 +1,25 @@
 body {
   margin: 0;
   background-color: var(--background-body);
-  font-family: "Lustria", serif;
-  font-weight: 100;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (orientation: portrait), (max-width: 720px) {
+  main {
+    margin: 2vw 5vw;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  main {
+    margin: 1vw 2vw;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -31,10 +43,6 @@ html {
   --drop-shadow: drop-shadow(0 1vw 1vw rgba(0, 0, 0, 0.5));
 }
 
-main {
-  margin: 1vw 2vw;
-}
-
 .topo {
   position: fixed;
   text-align: center;
@@ -49,4 +57,3 @@ main {
   font-size: 2vw;
   cursor: pointer;
 }
-

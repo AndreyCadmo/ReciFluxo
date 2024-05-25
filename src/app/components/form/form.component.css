@@ -1,3 +1,40 @@
+@media screen and (orientation: portrait), (max-width: 720px) {
+  .card h1,
+  .card p {
+    font-size: 3vw;
+    margin: 0.5vw 0;
+  }
+  .buttons-form button {
+    width: 20vw;
+    height: 6vw;
+    font-size: 4vw;
+  }
+  .formulario input {
+    max-height: 3vw;
+    padding: 2vw 1vw;
+    font-size: 2vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .card h1,
+  .card p {
+    font-size: 1.2vw;
+    margin: 0.5vw 0;
+  }
+  .buttons-form button {
+    width: 8vw;
+    height: 1.5vw;
+    font-size: 1vw;
+  }
+  .formulario input {
+    max-height: 1vw;
+    padding: 0.5vw 1vw;
+    font-size: 1vw;
+  }
+  .input-small {
+    max-width: 19vw;
+  }
+}
 
 .one-form {
   display: flex;
@@ -10,9 +47,7 @@
   flex: 1;
   border-radius: 1vw;
   border: 0 none;
-  max-height: 1vw;
   outline: 0;
-  font-size: 1vw;
 }
 
 .form-contents {
@@ -30,16 +65,9 @@
 }
 
 .buttons-form button {
-  width: 8vw;
-  height: 1.5vw;
   border-radius: 1vw;
   border: none;
-  font-size: 1vw;
   cursor: pointer;
-}
-
-.input-small {
-  max-width: 19vw;
 }
 
 .card {
@@ -47,10 +75,4 @@
   padding: 1vw;
   border-radius: 1vw;
   box-shadow: var(--box-shadow);
-}
-
-.card h1,
-.card p {
-  font-size: 1.2vw;
-  margin: 0.5vw 0;
 }

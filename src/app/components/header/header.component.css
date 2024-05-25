@@ -3,10 +3,43 @@ header,
   display: flex;
 }
 
+@media screen and (orientation: portrait), (max-width: 720px) {
+  header {
+    height: 10vw;
+  }
+  header img {
+    width: 8vw;
+  }
+  .header-buttons button {
+    width: 13vw;
+    height: 4vw;
+    font-size: 2.5vw;
+    border-radius: 3vw;
+  }
+  header h1 {
+    font-size: 5vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  header {
+    height: 2vw;
+  }
+  header img {
+    width: 3vw;
+  }
+  .header-buttons button {
+    width: 6vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+  }
+  header h1 {
+    font-size: 2.5vw;
+  }
+}
+
 header {
   background-color: var(--background-header);
   padding: 0.9vw;
-  height: 2vw;
   justify-content: space-between;
 }
 
@@ -15,27 +48,21 @@ header {
   gap: 1vw;
 }
 .header-buttons {
-    display: flex;
-    gap: 1vw;
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
 }
 .header-buttons button {
-  width: 6vw;
-  border-radius: 1vw;
   border: none;
   background-color: var(--buttons-header);
-  font-size: 1vw;
   padding: 0.5vw;
   cursor: pointer;
-}
-
-header img {
-  width: 3vw;
 }
 
 header h1 {
   color: var(--font-white);
   margin: 0;
-  font-size: 2.5vw;
   font-family: var(--font-family-title);
   font-weight: 100;
 }

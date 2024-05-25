@@ -3,6 +3,105 @@
   gap: 1vw;
 }
 
+@media screen and (orientation: portrait), (max-width: 720px) {
+  .world {
+    display: none;
+  }
+  .card h1,
+  .card p,
+  .card-two p,
+  .card-three p,
+  .card-four p {
+    font-size: 3vw;
+    margin: 0.5vw 0;
+  }
+  .main-card h1 {
+    font-size: 4vw;
+  }
+  .main-card p {
+    font-size: 3vw;
+  }
+  .main-card {
+    max-height: 100vw;
+  }
+  .servicos,
+  .visao,
+  .description-container,
+  .contacts-container {
+    flex-direction: column;
+  }
+  .servicos-container {
+    height: 190vw;
+  }
+  .description-container {
+    height: 150vw;
+    margin-top: 15vw;
+  }
+  .title-section {
+    font-size: 4vw;
+  }
+  .contato-content iframe {
+    height: 50vw;
+  }
+  .redes-sociais img {
+    width: 8vw;
+  }
+  .contacts-content {
+    margin-top: 15vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .card h1,
+  .card p,
+  .card-two p,
+  .card-three p,
+  .card-four p {
+    font-size: 1.2vw;
+    margin: 0.5vw 0;
+  }
+  .main-card h1 {
+    font-size: 1.5vw;
+  }
+  .main-card p {
+    font-size: 1.2vw;
+  }
+  .main-card {
+    max-height: 40vw;
+  }
+  .servicos-container {
+    height: 45.5vw;
+  }
+  .card-two {
+    height: 13vw;
+  }
+  .card-four {
+    height: 27.8vw;
+  }
+  .description-container {
+    height: 42vw;
+    margin-top: 3vw;
+  }
+  .card-three {
+    height: 10vw;
+  }
+  .title-section {
+    font-size: 2vw;
+  }
+  .contato-content iframe {
+    height: 15vw;
+  }
+  .redes-sociais img {
+    width: 3vw;
+  }
+  .form-content {
+    max-width: 45vw;
+  }
+  .contacts-container{
+     margin-top: 3vw;
+     margin-bottom: 15vw;
+  }
+}
+
 .world img {
   width: 40vw;
   filter: var(--drop-shadow);
@@ -17,28 +116,18 @@
   justify-content: space-between;
   background-color: var(--background-card);
   box-shadow: var(--box-shadow);
-  max-height: 40vw;
-}
-
-.main-card h1 {
-  font-size: 1.5vw;
-}
-.main-card p {
-  font-size: 1.2vw;
 }
 
 .servicos-container {
   display: flex;
   flex-direction: column;
   margin-top: 2vw;
-  height: 45.5vw;
 }
 
 .title-section {
   text-align: center;
   color: var(--font-white);
   font-weight: 100;
-  font-size: 2vw;
 }
 
 .servicos,
@@ -70,15 +159,6 @@
   border-radius: 1vw;
   box-shadow: var(--box-shadow);
 }
-
-.card h1,
-.card p,
-.card-two p,
-.card-three p,
-.card-four p {
-  font-size: 1.2vw;
-  margin: 0.5vw 0;
-}
 .card-container-two {
   flex: 2.1;
 }
@@ -88,30 +168,22 @@
   text-align: center;
 }
 
-.card-two {
-  height: 13vw;
-}
-
 .card-three {
   display: flex;
   align-items: center;
-  height: 10vw;
   text-align: center;
 }
 
 .card-four {
   display: flex;
   flex-direction: column;
-  height: 27.8vw;
   text-align: center;
   justify-content: space-around;
 }
 
 .description-container {
-  margin-top: 3vw;
   padding-top: 3vw;
   display: flex;
-  height: 42vw;
 }
 
 .cards-description,
@@ -122,18 +194,16 @@
 .contato-content {
   display: flex;
   flex-direction: column;
-  height: 29.5vw;
+  height: 100%;
   justify-content: space-around;
 }
 
 .contato-content iframe {
   width: 100%;
-  height: 15vw;
 }
 
 .contacts-container {
-  height: 45vw;
-  margin-top: 3vw;
+  height: 32vw;
 }
 
 .redes-sociais {
@@ -142,7 +212,6 @@
 }
 
 .redes-sociais img {
-  width: 3vw;
   cursor: pointer;
 }
 
@@ -150,5 +219,4 @@
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  max-width: 45vw;
 }
