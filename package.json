@@ -6,7 +6,7 @@
     "start": "ng serve --host 0.0.0.0",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "serve:ssr:ReciFluxo": "node dist/reci-fluxo/server/server.mjs"
+    "server_ssr": "ng build && node dist/reci-fluxo/server/server.mjs"
   },
   "private": true,
   "dependencies": {
